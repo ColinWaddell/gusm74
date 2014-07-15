@@ -13,6 +13,11 @@ body {
   color: #5a5a5a;
 }
 
+body:after{
+  display:none;
+  content: url(../images/carousel_1.jpg) url(../images/carousel_2.jpg) url(../images/carousel_3.jpg) url(../images/carousel_4.jpg);
+}
+
 
 
 /* CUSTOMIZE THE NAVBAR
@@ -74,6 +79,9 @@ body {
   min-width: 100%;
   height: 500px;
   background-repeat: no-repeat;
+  background-position: 50%;
+  background-color: white;
+  background-size: cover;
 }
 
 
@@ -225,7 +233,6 @@ body {
   .featurette-heading {
     font-size: 50px;
   }
-
 
 }
 
